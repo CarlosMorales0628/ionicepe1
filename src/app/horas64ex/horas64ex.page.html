@@ -1,0 +1,72 @@
+<ion-header>
+    <ion-toolbar color="dark">
+        <ion-title text-center>horas64ex</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content color="tertiary">
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-label>
+          EPE 1:
+          <ion-input placeholder="Ingrese la nota" [(ngModel)]="EPE1"></ion-input>
+        </ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>
+          EPE 2:
+          <ion-input placeholder="Ingrese la nota" [(ngModel)]="EPE2"></ion-input>
+        </ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>
+          EPE 3:
+          <ion-input placeholder="Ingrese la nota" [(ngModel)]="EPE3"></ion-input>
+        </ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>
+          Eva 1:
+          <ion-input placeholder="Ingrese la nota" [(ngModel)]="Eva1"></ion-input>
+        </ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>
+          Eva 2:
+          <ion-input placeholder="Ingrese la nota" [(ngModel)]="Eva2"></ion-input>
+        </ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>
+          Eva 3:
+          <ion-input placeholder="Ingrese la nota" [(ngModel)]="Eva3"></ion-input>
+        </ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-label>
+          Examen:
+          <ion-input placeholder="Ingrese la nota" [(ngModel)]="Examen"></ion-input>
+        </ion-label>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-button expand="full" color="primary" (click)="alerta64()">Conocer Resultados</ion-button>
+      </ion-col>
+    </ion-row>
+    <ion-button expand="full" color="danger" (click)="volverinicio()">Inicio</ion-button>
+
+  </ion-grid>
+</ion-content>
